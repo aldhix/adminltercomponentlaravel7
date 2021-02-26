@@ -1,4 +1,4 @@
-@extends('admin::dashboard',['title'=>'Form'])
+@extends('admin::dashboard',['title'=>'Form Example'])
 @section('content')
 <x-admin::content-header>
 	<h1> <i class="fas fa-edit"></i> Form Example </h1>
@@ -14,7 +14,7 @@
 					</x-admin::card-header>
 					
 					<x-admin::card-body>
-							
+							@csrf()
 							<x-admin::form-group>
 								<x-admin::input-group>
 									<x-admin::prepend>
