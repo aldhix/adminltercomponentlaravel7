@@ -4,6 +4,14 @@
 	<h1> <i class="fas fa-table"></i> Table Example </h1>
 </x-admin::content-header>
 <x-admin::content>
+	<x-admin::alert class="alert-success">
+		<h5><i class="icon fas fa-check"></i> Alert!</h5>
+        Success alert preview. This alert is dismissable.
+	</x-admin::alert>
+	<x-admin::alert class="alert-warning" :close="false">
+		<h5><i class="icon fas fa-exclamation-triangle"></i> Alert!</h5>
+         Warning alert preview. This alert isn't dismissable.
+	</x-admin::alert>
 	<x-admin::card>
 		<x-admin::card-header>
 			<h3 class="card-title">Table example</h3>
