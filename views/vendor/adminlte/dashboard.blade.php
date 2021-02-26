@@ -1,4 +1,4 @@
-@extends('admin::main')
+@extends('admin::main',['class'=>'sidebar-mini'])
 @section('body')
 <!-- Site wrapper -->
 <div class="wrapper">
