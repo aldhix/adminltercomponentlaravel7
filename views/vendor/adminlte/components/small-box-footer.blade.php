@@ -1,0 +1,1 @@
+<a {{ $attributes->merge(['class' => 'small-box-footer']) }}><?= $slot ?> <i class="fas fa-arrow-circle-right"></i></a>
