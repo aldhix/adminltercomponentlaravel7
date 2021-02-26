@@ -1,0 +1,1 @@
+<div {{ $attributes->merge(['class' => 'modal-content']) }}><?= $slot ?></div>

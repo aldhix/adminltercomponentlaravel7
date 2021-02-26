@@ -10,6 +10,7 @@
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         @include('pages.admin.dashboard.nav-sidebar')
         @include('pages.admin.form.nav-sidebar')
+        @include('pages.admin.table.nav-sidebar')
         @include('pages.admin.user.nav-sidebar')
       </ul>
     </nav>

@@ -1,7 +1,7 @@
 @extends('admin::dashboard',['title'=>'Form'])
 @section('content')
 <x-admin::content-header>
-	<h1> <i class="fas fa-edit"></i> Form </h1>
+	<h1> <i class="fas fa-edit"></i> Form Example </h1>
 </x-admin::content-header>
 <x-admin::content>
 	<x-admin::row>
@@ -55,7 +55,8 @@
 
 					</x-admin::card-body>
 					<x-admin::card-footer>
-							<button type="submit" class="btn btn-default">Submit</button>
+							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalExample">Launch Modal</button>
 					</x-admin::card-footer>
 				
 				</x-admin::card>
@@ -63,4 +64,21 @@
 		</x-admin::col>
 	</x-admin::row>
 </x-admin::content>
+
+<x-admin::modal id="modalExample" data-backdrop="static" data-keyboard="false">
+	<x-admin::modal-dialog class="modal-sm">
+		<x-admin::modal-content>
+			<x-admin::modal-header>
+				<h3 class="modal-title">Example</h3>
+				<x-admin::modal-close />
+			</x-admin::modal-header>
+			<x-admin::modal-body>
+				Body Modal
+			</x-admin::modal-body>
+			<x-admin::modal-footer>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</x-admin::modal-footer>
+		</x-admin::modal-content>
+	</x-admin::modal-dialog>
+</x-admin::modal>
 @endsection

@@ -1,4 +1,4 @@
-<a href="../../index3.html" class="brand-link">
+<a href="{{ route('admin.dashboard') }}" class="brand-link">
 	<img src="{{ url('adminlte') }}/dist/img/AdminLTELogo.png"
 	     alt="AdminLTE Logo"
 	     class="brand-image img-circle elevation-3"

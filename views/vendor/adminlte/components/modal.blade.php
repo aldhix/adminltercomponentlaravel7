@@ -1,0 +1,1 @@
+<div tabindex="-1" {{ $attributes->merge(['class' => 'modal fade']) }}><?= $slot ?></div>
