@@ -1,7 +1,7 @@
 @extends('admin::dashboard',['title'=>'Table'])
 @section('content')
 <x-admin::content-header>
-	<h1> <i class="fas fa-list"></i> Table Example </h1>
+	<h1> <i class="fas fa-table"></i> Table Example </h1>
 </x-admin::content-header>
 <x-admin::content>
 	<x-admin::card class="card-primay">
