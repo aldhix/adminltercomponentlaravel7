@@ -20,6 +20,7 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin'], function() {
     Route::view('/','pages.admin.dashboard.index')->name('admin.dashboard');
 	Route::view('/login','pages.admin.auth.login')->name('admin.login');
+	Route::view('/user','pages.admin.user.index')->name('admin.user');
 	Route::view('/tab','pages.admin.tab.index')->name('admin.tab');
 	Route::view('/table','pages.admin.table.index')->name('admin.table');
 	Route::view('/form','pages.admin.form.index')->name('admin.form');
